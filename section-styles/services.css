@@ -1,0 +1,11 @@
+.joker-image-block {
+    position: relative;
+}
+
+.color-change {
+    color: white;
+}
+.absolute-position {
+    position: absolute;
+    top: 15%;
+}

@@ -1,0 +1,51 @@
+.our-team-section {
+    padding-top: 60px;
+    position: relative;
+    height: 450px;
+}
+.our-team-section-text {
+    position: absolute;
+    top: 6%;
+    margin-right: 15px;
+    left: 25%;
+}
+
+.image-of-team-member {
+    width: 180px;
+    height: 186px;
+    margin-right: 20px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.member-itself {
+    width: 100%;
+    height: 100%;
+}
+.line-with-photos {
+    position: absolute;
+    display: flex;
+    top: 30%;
+    padding-bottom: 60px;
+    left: 25%;
+    flex-wrap: wrap;
+}
+.member-name {
+    margin-top: 15px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.member-position {
+    margin-top: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.uniting-squares {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width: 1106px) {
+
+}

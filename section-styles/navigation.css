@@ -1,0 +1,119 @@
+.navigation-background {
+    background: linear-gradient(0deg, #02112b 30%, transparent 200%),url("../pictures/first-background.jpg") no-repeat top;
+
+}
+.navigation-header {
+    display: flex;
+    padding-top: 60px;
+    margin-left: 60px;
+}
+.main-letter {
+    color: #ffc600;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 190px;
+    font-weight: bold;
+}
+.main-word {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 190px;
+    font-weight: bold;
+}
+.navigation-header-text-letter {
+    color: #ffc600;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+}
+.navigation-header-text {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+}
+.header-text-holder {
+    display: flex;
+}
+.navigation-click-to-download {
+    color: #ffc600;
+    margin-top: 20px;
+    margin-left: 60px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.navigation-click-to-download:hover {
+    color:white;
+
+    transition: 0.4s;
+}
+.navigation-header-info {
+    margin-left: 60px;
+}
+.navigation-text-second-line {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+}
+.navigation-image-block {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 87px;
+}
+.navigation-image-holder {
+    position: relative;
+
+}
+.soldier-image {
+    width: 100%;
+}
+.on-image-div-block {
+    margin-left: 60px;
+}
+.on-image-text {
+    position: absolute;
+    top: 65%;
+}
+.on-image-div-flex {
+    display: flex;
+}
+.first-word-on-image,
+.second-word-on-image,
+.second-line-on-image {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+.first-word-on-image {
+    color: #ffc600;
+    margin-right: 11px;
+}
+.navigation-links-list {
+    display: flex;
+    margin-left: 60px;
+    position: absolute;
+    top: 87%;
+}
+.navigation-links-item {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin-right: 25px;
+    border-bottom: 0 solid black;
+    transition: 0.4s;
+}
+.navigation-links-item:hover {
+    color: white;
+    border-bottom: 3px solid #411f03;
+    transition: 0.4s;
+}
+.navigation-links-a {
+    text-decoration: none;
+    color: #ffc600;
+    transition: 0.4s;
+}
+.navigation-links-a:hover {
+    color: white;
+    transition: 0.4s;
+}

@@ -1,0 +1,83 @@
+.featured-projects-section {
+    padding-top: 50px;
+}
+.projects-list {
+    display: flex;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.projects-item {
+    margin-right: 25px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: black;
+    border-bottom: 0 solid black;
+    transition: 0.05s;
+}
+.projects-item:hover {
+    border-bottom: 2px solid #ffc600;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.project-image-itself {
+    width: 280px;
+    height: 280px;
+}
+.image-width-stabilize {
+    width: 100%;
+    height: 100%;
+}
+.first-line-images {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.second-line-images {
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.declining-page-push-down {
+    padding-bottom: 20px;
+}
+@media (max-width: 863px) {
+    .first-line-images, .second-line-images {
+        flex-wrap: wrap;
+    }
+}
+.first-line-joker-block {
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    margin-right: 30px;
+}
+.second-line-joker-block {
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    margin-right: 30px;
+
+}
+.text-header {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+}
+.just-text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    color: white;
+    margin-top: 15px;
+    line-height: 1.2;
+}
+.width-and-height-stabilize {
+    margin-right: 30px;
+}
