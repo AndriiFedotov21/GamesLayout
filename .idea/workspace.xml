@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c3db516-66d8-4030-bb61-85dfbb8fe847" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/section-styles/glowing-section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamesLayout.html" beforeDir="false" afterPath="$PROJECT_DIR$/GamesLayout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section-styles/about-sublime.css" beforeDir="false" afterPath="$PROJECT_DIR$/section-styles/about-sublime.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section-styles/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/section-styles/navigation.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +24,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kCuPpxxzvTYPgtaikjPehgPiS5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -84,7 +84,8 @@
       <workItem from="1619033901036" duration="48000" />
       <workItem from="1619383491770" duration="168000" />
       <workItem from="1619395912431" duration="6342000" />
-      <workItem from="1619402358349" duration="855000" />
+      <workItem from="1619402358349" duration="1323000" />
+      <workItem from="1619403994164" duration="661000" />
     </task>
     <servers />
   </component>

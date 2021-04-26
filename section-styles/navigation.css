@@ -9,7 +9,7 @@
     margin-left: 60px;
     text-shadow: 0 0 10px aqua,0 0 20px aqua,0 0 40px aqua;
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 
 }
 .toplayer {
@@ -179,4 +179,7 @@
 .navigation-links-a:hover {
     color: white;
     transition: 0.4s;
+}
+.navigation-block {
+    overflow: hidden;
 }
