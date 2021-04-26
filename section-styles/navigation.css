@@ -1,12 +1,75 @@
 .navigation-background {
-    background: linear-gradient(0deg, #02112b 30%, transparent 200%),url("../pictures/first-background.jpg") no-repeat top;
+    background: black;
+    background-size: 100%;
 
 }
 .navigation-header {
     display: flex;
     padding-top: 60px;
     margin-left: 60px;
+    text-shadow: 0 0 10px aqua,0 0 20px aqua,0 0 40px aqua;
+    position: relative;
+    margin-bottom: 10px;
+
 }
+.toplayer {
+    position: absolute;
+    width: 63%;
+    top: 20%;
+    height: 220px;
+    background: black;
+    animation: animatetoplayer 10s linear infinite;
+}
+@keyframes animatetoplayer {
+    0%, 2.5% {
+        transform: translateX(0);
+    }
+    5% {
+        transform: translateX(0);
+    }
+    45% {
+        transform: translateX(100%);
+    }
+    47.5%,50% {
+        transform: translateX(100%);
+    }
+    50.001%, 52% {
+        transform: translateX(-100%);
+    }
+    55% {
+        transform: translateX(-100%);
+    }
+    95% {
+        transform: translateX(0);
+    }
+    97.5%,100% {
+        transform: translateX(0);
+    }
+}
+.lightbar {
+    z-index: 2;
+    height: 200px;
+    width: 30px;
+    background: white;
+    box-shadow: 0 0 10px aqua,0 0 20px aqua,0 0 40px aqua,0 0 80px aqua ;
+    animation: animatelightbar 5s linear infinite;
+}
+@keyframes animatelightbar {
+    0%, 5% {
+        transform: scaleY(0) translateX(0);
+    }
+    10% {
+        transform: scaleY(1) translateX(0);
+    }
+    90% {
+        transform: scaleY(1) translateX(calc(700px - 10px));
+    }
+    95%,100% {
+        transform: scaleY(0) translateX(calc(700px - 10px));
+    }
+}
+
+
 .main-letter {
     color: #ffc600;
     font-family: 'PT Sans', sans-serif;
@@ -72,7 +135,7 @@
 }
 .on-image-text {
     position: absolute;
-    top: 65%;
+    top: 18%;
 }
 .on-image-div-flex {
     display: flex;
@@ -93,7 +156,7 @@
     display: flex;
     margin-left: 60px;
     position: absolute;
-    top: 87%;
+    top: 40%;
 }
 .navigation-links-item {
     font-family: 'PT Sans', sans-serif;

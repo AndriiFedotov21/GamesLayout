@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c3db516-66d8-4030-bb61-85dfbb8fe847" name="Default Changelist" comment="" />
+    <list default="true" id="2c3db516-66d8-4030-bb61-85dfbb8fe847" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/section-styles/glowing-section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GamesLayout.html" beforeDir="false" afterPath="$PROJECT_DIR$/GamesLayout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-styles/about-sublime.css" beforeDir="false" afterPath="$PROJECT_DIR$/section-styles/about-sublime.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-styles/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/section-styles/navigation.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,17 +21,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kCuPpxxzvTYPgtaikjPehgPiS5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -65,24 +77,30 @@
       <workItem from="1612285288575" duration="113000" />
       <workItem from="1612285428181" duration="1000" />
       <workItem from="1612289685703" duration="195000" />
+      <workItem from="1612887681612" duration="345000" />
+      <workItem from="1614871220032" duration="184000" />
+      <workItem from="1615173859866" duration="531000" />
+      <workItem from="1616613489556" duration="58000" />
+      <workItem from="1619033901036" duration="48000" />
+      <workItem from="1619383491770" duration="168000" />
+      <workItem from="1619395912431" duration="6342000" />
+      <workItem from="1619402358349" duration="855000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1612285305461">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1612285305461" />
-    <state x="425" y="189" key="run.anything.popup" timestamp="1605222168306">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1605222168306" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605452966106">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605452966106" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
