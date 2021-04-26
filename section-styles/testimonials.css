@@ -29,3 +29,13 @@
     margin-right: 300px;
     text-align: center;
 }
+@media (max-width: 1000px) {
+    .flex-testimonials {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .john-doe-image {
+        margin-right: 0;
+        margin-top: 15px;
+    }
+}

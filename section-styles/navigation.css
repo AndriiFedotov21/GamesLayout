@@ -1,10 +1,11 @@
 .navigation-background {
-    background: black;
+    background: #030118;
     background-size: 100%;
 
 }
 .navigation-header {
     display: flex;
+    width: 100%;
     padding-top: 60px;
     margin-left: 60px;
     text-shadow: 0 0 10px aqua,0 0 20px aqua,0 0 40px aqua;
@@ -14,10 +15,11 @@
 }
 .toplayer {
     position: absolute;
-    width: 63%;
+    width: 60%;
     top: 20%;
     height: 220px;
-    background: black;
+    background: #030118;
+
     animation: animatetoplayer 10s linear infinite;
 }
 @keyframes animatetoplayer {
@@ -182,4 +184,133 @@
 }
 .navigation-block {
     overflow: hidden;
+}
+
+.burger-holder {
+    display: none;
+    right: 6%;
+    top: 3%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background: transparent;
+    box-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 40px cyan;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+.burger-white-line {
+    width: 28px;
+    margin: 8px auto;
+    height: 2px;
+    background: white;
+    border-radius: 20px;
+}
+.burger-holder:hover  .navigation-links-list {
+    display: block;
+}
+.burger-menu {
+    transform: scaleY(0);
+    opacity: 0.5;
+    background: cyan;
+    width: 200px;
+    border-radius: 10px;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    top: 120%;
+    transition: 0.5s;
+    transform-origin: 0 0;
+}
+.burger-menu-item {
+    margin-top: 25px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+@media (max-width: 1250px) {
+    .navigation-header {
+        padding-top: 20px;
+        text-shadow: 0 0 10px aqua;
+    }
+    .main-letter {
+        font-size: 40px;
+    }
+    .main-word {
+        font-size: 40px;
+    }
+    .lightbar {
+        width: 5px;
+        height: 40px;
+        animation: animatelightbar 2s linear infinite;
+    }
+    .toplayer {
+        width: 13%;
+        top: 12%;
+        height: 80px;
+        animation: animatetoplayer 4s linear infinite;
+        background: black;
+    }
+    @keyframes animatelightbar {
+        0%, 5% {
+            transform: scaleY(0) translateX(0);
+        }
+        10% {
+            transform: scaleY(1) translateX(0);
+        }
+        90% {
+            transform: scaleY(1) translateX(calc(160px - 10px));
+        }
+        95%,100% {
+            transform: scaleY(0) translateX(calc(160px - 10px));
+        }
+    }
+    .navigation-header-info {
+        display: none;
+    }
+    .navigation-click-to-download {
+        display: none;
+    }
+    .navigation-background {
+        background: black;
+    }
+    .navigation-image-block {
+        padding-top: 0;
+    }
+
+}
+@media (max-width: 1160px) {
+    .toplayer {
+        display: none;
+
+    }
+    .lightbar {
+        display: none;
+    }
+    .navigation-header {
+        left: 6%;
+        margin-left: 0;
+    }
+    .burger-holder {
+        display: block;
+        z-index: 2;
+        cursor: pointer;
+    }
+    .burger-holder:hover .burger-white-line {
+        box-shadow: 0 0 1px cyan, 0 0 2px cyan, 0 0 4px cyan, 0 0 6px cyan;
+        transition: 0.5s;
+    }
+    .navigation-links-list {
+
+    display: none;
+    }
+    .burger-holder:hover .burger-menu {
+        transform: scaleY(1);
+    }
+    .burger-menu-item:hover {
+        text-shadow: 0 0 10px black, 0 0 20px red, 0 0 40px black, 0 0 80px black;
+        z-index: 9999;
+        color: cyan;
+    }
 }

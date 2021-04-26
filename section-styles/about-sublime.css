@@ -79,3 +79,31 @@
 .about-sublime-item {
     max-width: 300px;
 }
+@media (max-width: 1000px) {
+    .about-right-side-part {
+        margin-left: 50px;
+
+    }
+    .about-sublime-list {
+        flex-wrap: wrap;
+    }
+    .about-sublime-item {
+        margin: 20px;
+    }
+}
+@media (max-width: 940px) {
+    .project-image-itself {
+        margin: 15px;
+    }
+    .first-line-images {
+        flex-wrap: wrap;
+    }
+    .second-line-images {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 660px) {
+    .about-sublime-wrapper {
+        display: block;
+    }
+}

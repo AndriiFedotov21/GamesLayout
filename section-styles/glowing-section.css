@@ -1,7 +1,12 @@
 .container {
     box-sizing: border-box;
     background-size: 100%;
-    text-shadow: 0 0 10px aqua,0 0 20px aqua,0 0 40px aqua,0 0 80px aqua ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
 }
 .content-wrapper  {
     display: flex;
@@ -11,14 +16,7 @@
 
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 40px 0;
 
-}
 .container .box {
     position: relative;
     width: 320px;
@@ -153,6 +151,7 @@
     backdrop-filter: blur(10px);
     transition: 0.5s;
     color: #fff;
+
 }
 .container .box:hover .content  {
     left: -25px;

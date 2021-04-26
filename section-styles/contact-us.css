@@ -12,7 +12,7 @@
     height: 620px;
 }
 .right-side-contacts {
-    background-color: #2121a2;;
+    background: #030118;
 }
 .margin-for-contact {
     margin-top: 60px;
@@ -27,13 +27,13 @@
 }
 .form-item {
     margin-top: 20px;
-    background-color: #2121a2;
+    background: #030118;
 }
 ::-webkit-input-placeholder {
     color: white;
 }
 .name-form, .mobile-form, .email-form, .message-form {
-    background-color: #2121a2;;
+    background: #030118;
     border: 2px solid white;
 }
 .name-form {
@@ -130,4 +130,15 @@
     height: 100%;
     border: 2px solid #ffc600;
     border-radius: 50%;
+}
+@media (max-width: 1230px) {
+    .flex-forms {
+        display: none;
+    }
+}
+@media (max-width: 500px) {
+    .wrapper-for-details {
+        margin-left: 20px;
+    }
+
 }

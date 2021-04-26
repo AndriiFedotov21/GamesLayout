@@ -9,3 +9,32 @@
     position: absolute;
     top: 15%;
 }
+@media (max-width: 1130px) {
+    .first-line-joker-block {
+        left: 5%;
+    }
+    .second-line-joker-block {
+        left: 5%;
+    }
+}
+@media (max-width: 900px) {
+
+    .just-text {
+        font-size: 8px;
+    }
+}
+@media (max-width: 694px) {
+    .just-text {
+        display: none;
+    }
+    .text-header {
+        font-size: 30px;
+    }
+    .first-line-joker-block,.second-line-joker-block {
+        left: 8%;
+
+    }
+    .first-line-joker-block {
+        top: 35%;
+    }
+}

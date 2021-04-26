@@ -46,6 +46,21 @@
     display: flex;
     flex-wrap: wrap;
 }
-@media (max-width: 1106px) {
-
+@media (max-width: 1098px) {
+    .line-with-photos {
+        left: 5%;
+    }
+}
+@media (max-width: 886px) {
+    .image-of-team-member {
+        display: none;
+    }
+    .our-team-section {
+        height: 80px;
+    }
+}
+@media (max-width: 760px) {
+    .our-team-section {
+        display: none;
+    }
 }

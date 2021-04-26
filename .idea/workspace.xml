@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c3db516-66d8-4030-bb61-85dfbb8fe847" name="Default Changelist" comment="light_changes">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GamesLayout.html" beforeDir="false" afterPath="$PROJECT_DIR$/GamesLayout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-styles/about-sublime.css" beforeDir="false" afterPath="$PROJECT_DIR$/section-styles/about-sublime.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-styles/blogs.css" beforeDir="false" afterPath="$PROJECT_DIR$/section-styles/blogs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-styles/contact-us.css" beforeDir="false" afterPath="$PROJECT_DIR$/section-styles/contact-us.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-styles/glowing-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/section-styles/glowing-section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-styles/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/section-styles/navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-styles/our-team.css" beforeDir="false" afterPath="$PROJECT_DIR$/section-styles/our-team.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-styles/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/section-styles/services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-styles/strategic.css" beforeDir="false" afterPath="$PROJECT_DIR$/section-styles/strategic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section-styles/testimonials.css" beforeDir="false" afterPath="$PROJECT_DIR$/section-styles/testimonials.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +31,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1kCuPpxxzvTYPgtaikjPehgPiS5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,9 +50,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../glowingEffects" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -85,6 +104,10 @@
       <workItem from="1619402358349" duration="1323000" />
       <workItem from="1619403994164" duration="1492000" />
       <workItem from="1619405536779" duration="570000" />
+      <workItem from="1619444671984" duration="2244000" />
+      <workItem from="1619450335008" duration="71000" />
+      <workItem from="1619450420127" duration="40000" />
+      <workItem from="1619450960648" duration="13549000" />
     </task>
     <task id="LOCAL-00001" summary="light_changes">
       <created>1619404814544</created>
@@ -112,6 +135,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/GamesLayout" />
+    </ignored-roots>
     <MESSAGE value="light_changes" />
     <option name="LAST_COMMIT_MESSAGE" value="light_changes" />
   </component>

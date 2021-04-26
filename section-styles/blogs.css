@@ -62,3 +62,31 @@
     text-align: left;
     margin-top: 15px;
 }
+@media (max-width: 1100px){
+    .right-side-blogs-part {
+        margin-right: 0;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+
+}
+@media (max-width: 900px) {
+    .blogs-align-with-flex {
+        display: flex;
+        padding-bottom: 50px;
+        justify-content: space-between;
+    }
+    .blog-list {
+        display: none;
+    }
+    .blogs-align-with-flex {
+        justify-content: center;
+    }
+}
+@media (max-width: 588px) {
+    .blogs-section {
+        display: none;
+    }
+
+}
